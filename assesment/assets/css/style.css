@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: sans-serif;
+  background-color: #f7f8fa;
+}
+:root {
+    --font-size-20: 20px;
+    --font-size-16: 16px;
+    --font-size-14: 14px;
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+    --color-blue: #1570ef;
+    --color-grey-400: #858d9d;
+    --color-grey-500: #667085;
+    --color-grey-600: #5d6679;
+    --color-grey-700: #48505e;
+    --color-grey-800: #383e49;
+    --color-yellow: #e19133;
+    --color-purple: #845ebc;
+    --color-red-error-400: #f36960;
+    --color-red-error-600: #da3e33;
+    --color-green: #10a760;
+    --background-color: #ffff;
+  }
+  /*helper classes*/
+  .mt-14 {
+    margin-top: 14px;
+  }
+  .mt-20 {
+    margin-top: 20px;
+  }
+  .mt-45 {
+    margin-top: 45px;
+  }
+  .ml-60 {
+    margin-top: 60px;
+  }
+  .ml-45 {
+    margin-left: 45px;
+  }
+  .ml-95 {
+    margin-left: 95px;
+  }
+  .padding-30 {
+    padding: 30px;
+  }
+  .display-flex {
+    display: flex;
+  }
+  .flex-column {
+    flex-direction: column;
+  }
+  .a-items-center {
+    align-items: center;
+  }
+  .j-content-center {
+    justify-content: center;
+  }
+  .j-content-space-between {
+    justify-content: space-between;
+  }
+  .flex-1 {
+    flex: 1;
+  }
+  .display-none {
+    display: none;
+  }
+  .height-100 {
+    height: 100%;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  .overflow-auto {
+    overflow: auto;
+  }
+  .flex-grow-1 {
+    flex-grow: 1;
+  }
